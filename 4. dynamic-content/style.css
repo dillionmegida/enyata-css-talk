@@ -1,0 +1,11 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+}
+
+div::after {
+  content: "Parent is " attr(data-parent);
+  color: red;
+  font-size: 100px;
+}

@@ -1,0 +1,13 @@
+/* Example 1 */
+div {
+  aspect-ratio: 1/1;
+  width: 50%;
+  background-color: purple;
+}
+
+/* Example 2 */
+div {
+  aspect-ratio: 0.8;
+  width: 60%;
+  background-color: purple;
+}

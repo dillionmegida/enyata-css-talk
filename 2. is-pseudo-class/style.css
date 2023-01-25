@@ -1,0 +1,22 @@
+/* without :is */
+section p, div p, aside p, article p {
+    color: blue;
+	text-decoration: underline;
+}
+
+/* with :is */
+:is(section,div, aside, article) p {
+	color: blue;
+	text-decoration: underline;
+}
+
+/* without :is */
+button:hover,
+button:focus {
+	outline: 5px solid red;
+}
+
+/* with :is */
+button:is(:hover, :focus) {
+    outline: 5px solid red;
+}

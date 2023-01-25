@@ -1,0 +1,7 @@
+@import "./defaults.css";
+@import "./variables.css";
+
+h1 {
+  color: pink;
+  margin-top: var(--variable1);
+}
